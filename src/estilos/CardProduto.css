@@ -1,0 +1,37 @@
+.card-produto {
+    width: 24%;
+    color: white;
+    margin-bottom: 2rem;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    padding: 1rem;
+    transform: scale(0.9);
+    transition: all ease 0.3s;
+    box-shadow: 2px 2px 4px rgba(65, 62, 62, 0.4);
+}
+
+.card-produto:hover {
+    transform: scale(1.1);
+}
+
+.card-produto img {
+    width: 100%;
+}
+
+.produto-nome {
+    color: #8b8d92;
+
+}
+.produto-preco {
+    color: rgb(0, 0, 0);
+}
+
+.card-produto p {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+

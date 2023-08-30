@@ -1,0 +1,12 @@
+.carrinho-vazio {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    font-size: 30px;
+    
+}
+
+.div-pai {
+    margin: 40px;
+}
+

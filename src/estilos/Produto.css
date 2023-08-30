@@ -1,0 +1,59 @@
+.produto-pai {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    margin: 100px;
+}
+
+.info-produto {
+    margin: 40px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.info-produto h1{
+    margin-bottom: 40px;
+}
+
+.info-produto img {
+    width: 60%;
+    margin-bottom: 40px;
+}
+
+.info-produto p {
+    width: 60%;
+}
+
+.form-compra {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-compra h2 {
+    text-align: center;
+    margin: 20px;
+}
+
+.form-compra div {
+    margin: 20px;
+    align-self: center;
+}
+
+.form-compra button {
+    padding: 7px;
+    margin: 5px;
+    width: 50%;
+    align-self: center;
+    border-radius: 10px;
+}
+
+.form-compra button:hover {
+    background-color: #808083;
+    color: white;
+    cursor: pointer;
+}
+
+
+

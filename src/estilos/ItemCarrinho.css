@@ -1,0 +1,35 @@
+.item-carrinho {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+    background-color: white;
+    justify-content: space-between;
+}
+
+.item-carrinho img {
+    width: 15%;
+}
+
+.item-carrinho button {
+    display: flex;
+    justify-content: end;
+    margin: 5%;
+    padding: 0.5%;
+    align-self: center;
+    border-radius: 10px;
+}
+
+.item-carrinho button:hover {
+    background-color: #808083;
+    color: white;
+    cursor: pointer;
+}
+
+
+.item-carrinho p {
+    display: flex;
+    justify-content: end;
+    height: 30px;
+    margin: 5%;
+}
+
