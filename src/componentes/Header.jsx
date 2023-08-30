@@ -20,7 +20,7 @@ const Header = () => {
   return (
     <nav id="header">
         <h2>
-            <Link to="/"><BiStoreAlt />Loja</Link>
+            <Link to="/loja-react-deploy"><BiStoreAlt />Loja</Link>
         </h2>
         <form onSubmit={handleSubmit}>
             <input 
