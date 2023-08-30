@@ -17,7 +17,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <BrowserRouter>
       <Routes>
         <Route element={<App />}>
-          <Route path="/" element={<Listagem />} />
+          <Route path="/loja-react-deploy" element={<Listagem />} />
           <Route path="produto/:id" element={<Produto />} />
           <Route path="pesquisa" element={<Pesquisa />} />
           <Route path="carrinho" element={<Carrinho />} />
